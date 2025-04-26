@@ -1,0 +1,5 @@
+#EXTM3U
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=187738
+
+http://127.0.0.1//8082/samjaeSong/samjaeSong.m3u8

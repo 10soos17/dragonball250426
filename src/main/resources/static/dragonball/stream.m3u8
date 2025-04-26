@@ -1,0 +1,5 @@
+#EXTM3U
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=187738
+
+http://127.0.0.1//8081/dragonball/dragonball.m3u8
