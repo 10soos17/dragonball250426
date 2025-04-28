@@ -1,12 +1,12 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
+    //console.log( "ready!" );
 	//setInterval(this.init, 3000);
 	
 	//==============================init
 	//========기존 생성된 방 가져오기 
 	//window.addEventListener('DOMContentLoaded', init);
 	this.init = function(){
-		console.log( "init!" );
+		//console.log( "init!" );
 		//var reqJSON = JSON.stringify({"name": "soo"});
 		$.ajax({
 			//data: reqJSON,
@@ -28,7 +28,7 @@ $( document ).ready(function() {
 	}
 	
 	getSrc = function() {
-		console.log("getSrc");
+		//console.log("getSrc");
 		//var reqJSON = JSON.stringify({"name": "soo"});
 		$.ajax({
 			//data: reqJSON,
@@ -60,7 +60,8 @@ $( document ).ready(function() {
 	};*/
 	playMV = function(videoId, hlsUrl, autoPlay, timerYn) {
 		videoId = "video"
-		hlsUrl = "http://soos1017.hopto.org:8082/static/dragonball/dragonball.m3u8";
+		//hlsUrl = "http://127.0.0.1:8081/static/dragonball/dragonball.m3u8";
+		hlsUrl = "http://soos1017.hopto.org:8081/static/dragonball/dragonball.m3u8";
 		autoPlay ='true';
 		timerYn = "N";
 		//console.log("play");
